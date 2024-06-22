@@ -1,83 +1,121 @@
 <!DOCTYPE html>
-<html lang="pt-br" data-contexto="foco">
-
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fokus</title>
-    <link rel="shortcut icon" href="./imagens/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
-        integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prata&family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="./styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="shortcut icon" href="./assets/icon2.png" type="image/x-icon">
+  <script src="https://kit.fontawesome.com/e12cc718e7.js" crossorigin="anonymous" defer></script>
+  <script src="./script.js" defer></script>
+  <title>Ca-FÉ</title>
 </head>
-
 <body>
-    <main class="app">
-        <header class="app__header">
-            <figure class="app__logo-figure">
-                <img class="app__logo-image" src="/fokus-curso/imagens/logo.png" alt="">
-            </figure>
-        </header>
-        <section class="app__section-banner-container">
-            <h1 class="app__title">
-                Otimize sua produtividade,<br>
-                <strong class="app__title-strong">foque no que importa.</strong>
-            </h1>
-            <figure class="app__image-figure">
-                <img class="app__image" src="/fokus-curso/imagens/foco.png" alt="">
-            </figure>
-        </section>
-        <section class="app__section-card-container">
-            <div class="app__card">
-                <ul class="app__card-list">
-                    <li class="app__card-list-item">
-                        <button data-contexto="foco" class="app__card-button app__card-button--foco active">Foco</button>
-                    </li>
-                    <li class="app__card-list-item">
-                        <button data-contexto="short" class="app__card-button app__card-button--curto">Descanso curto</button>
-                    </li>
-                    <li class="app__card-list-item">
-                        <button data-contexto="long" class="app__card-button app__card-button--longo">Descanso longo</button>
-                    </li>
-                </ul>
-                <div id="timer" class="app__card-timer"></div>
-                <ul class="app__card-list">
-                    <li class="app__card-list-item">
-                        <label class="toggle">
-                            <input class="toggle-checkbox" type="checkbox" id="alternar-musica">
-                            <div class="toggle-switch"></div>
-                        </label>
-                    </li>
-                    <li class="app__card-list-item">
-                        <label class="app__card-list-label" for="alternar-musica">
-                            Música
-                        </label>
-                    </li>
-                </ul>
-                <div class="app__card-primary-button-wrapper">
-                    <button id="start-pause" class="app__card-primary-button">
-                        <img class="app__card-primary-butto-icon" src="/fokus-curso/imagens/play_arrow.png" alt="">
-                        <span>Começar</span>
-                    </button>
-                </div>
-            </div>
-        </section>
+    <div id="title">
+  <header>
+    <section class="inner-header">
+      <a class="logo" href="/devcoffee">
+        <img src="./assets/cafe.png" alt="Logo DevCoffee" title="DevCoffe">
+        <h1>Ca-FÉ</h1>
+      </a>
+      <nav>
+        <a href="#title">Home</a>
+        <a href="#about">Sobre</a>
+        <a href="#menu">Catálogo</a>
+      </nav>
+    </section>
+  </header>
+    </div>
+  <div class="hero-container">
+    <section>
+      <div class="inner-hero">
+        <h2>Porque vivemos pela fé e não pelo que vemos</h2>
+        <p>Bem-vindo à Ca-FÉ! Transformamos canecas em obras de arte personalizadas. Seja para expressar sua criatividade ou promover sua marca, estamos aqui para tornar cada gole especial. Explore nossa seleção de canecas de alta qualidade e crie momentos memoráveis conosco no Ca-FÉ!</p>
+        <button class="btn" >Entre em contato
+        </button>
+      </div>
+    </section>
+  </div>
+  <div id="about">
+    <div class="inner-about">
+      <div class="img"></div>
+      <div class="text">
+        <div class="inner-text">
+          <h2 class="title">O QUE FAZEMOS</h2>
+          <p>No Ca-FÉ, nós transformamos canecas, xícaras e garrafas em verdadeiras obras de arte personalizadas. Seja para expressar sua criatividade, presentear alguém especial ou simplesmente adicionar um toque único ao seu dia-a-dia, estamos aqui para fazer isso acontecer. Com uma variedade de opções de design e uma qualidade impecável, garantimos que cada peça seja tão única quanto você. Deixe-nos fazer parte dos seus momentos especiais, criando algo que seja verdadeiramente seu.
+            <br><br>
+            No Ca-FÉ, unimos nossa paixão por canecas à nossa fé em Deus. Cada peça personalizada é mais do que um simples objeto; é uma expressão de nossa devoção e confiança. Como diz em 2 Coríntios 5:7, 'pois vivemos por fé, e não pelo que vemos'. Assim, cada vez que segurar uma de nossas canecas, lembre-se não apenas do design único, mas também da fé que nos inspira a cada dia.</p>
+          <button class="btn">Entre em contato
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="menu">
+    <section>
+      <h2 class="title">Nosso catálogo</h2>
+      <div class="cards">
+        <div class="card">
+          <img class="img-card"  src="./assets/simples.jpg" alt="Café 1">
+          <h3>Simples</h3>
+          <strong>Caneca branca simples 320ml, perfeita para criar sua idéia.</strong>
+          <p>R$ 35,00</p>
+          <button class="btn">ENTRE EM CONTATO
+          </button>
+        </div>
+        <div class="card">
+          <img class="img-card"  src="./assets/alça.jpg" alt="Café 2">
+          <h3>Alça em coração</h3>
+          <strong>Caneca com alça de coração 320ml (colorida), perfeita para presentear a pessoa amada</strong>
+          <p>R$ 40,00</p>
+          <button class="btn">ENTRE EM CONTATO
+          </button>
+        </div>
+        <div class="card">
+          <img class="img-card"  src="./assets/magica.jpg" alt="Café 3">
+          <h3>Mágica</h3>
+          <strong>Caneca mágica 320ml, perfeita pra quem quer algo diferente do padrão.</strong>
+          <p>R$ 45,00</p>
+          <button class="btn">ENTRE EM CONTATO
+          </button>
+        </div>
+        <div class="card">
+          <img class="img-card"  src="./assets/garrafa600.jpg" alt="Café 4">
+          <h3>Garrafa 600ml</h3>
+          <strong>Garrafa 600ml colorida. Presentear a criançada nunca foi tão facíl</strong>
+          <p>R$ 50,00</p>
+          <button class="btn" >ENTRE EM CONTATO
+          </button>
+        </div>
+    
+        <div class="card">
+          <img src="./assets/grade.jpg" alt="Café 6">
+          <h3>Grade de Xícara</h3>
+          <strong>Grade de xícara 4un. Perfeito para deixar sua empresa a sua cara</strong>
+          <p>R$ 120,00</p>
+          <button class="btn">ENTRE EM CONTATO
+          </button>
+        </div>
+       
+        <div class="card">
+          <img src="./assets/shopping.webp" alt="Café 6">
+          <h3>Caneca com Colher</h3>
+          <strong>Uma caneca que já vem com seu próprio suporte de colher</strong>
+          <p>R$ 50,00</p>
+          <button class="btn">ENTRE EM CONTATO
+          </button>
+        </div>
 
-        <footer class="app__footer">
-            <p class="app__footer-text">
-                © 2024 Patrick E.S Silva. Todos os direitos reservados.
-            </p>
-        </footer>
-    </main>
+      </div>
+    </section>
+    
+  <footer>
+    <h3 title="Desenvolvido por Lauro Dutra">
+      Copyright &copy; 2024 - Desenvolvido por
+      <a  target="_blank"
+        >Patrick Souza</a
+      >
+    </h3>
 
-    <script src="script.js"></script>
-
+  </footer>
 </body>
-
 </html>
